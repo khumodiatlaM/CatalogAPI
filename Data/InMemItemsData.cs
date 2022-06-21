@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CatalogAPI.Data
 {
-    public class InMemItemsData
+    public class InMemItemsData : IItemsData
     {
         private readonly List<Item> items = new()
         {
