@@ -59,7 +59,7 @@ namespace CatalogAPI.Controllers
 
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public ActionResult UpdateItem(Guid id ,UpdateItemDto itemDto)
         {
             var item = data.GetItem(id);

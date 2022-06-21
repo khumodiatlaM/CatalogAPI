@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace CatalogAPI.Data
 {
-    public class InMemItemsData : IItemsData
+    public class InMemItemsData 
     {
         private readonly List<Item> items = new()
         {
